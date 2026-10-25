@@ -1,12 +1,12 @@
-\# 🧠 Student Digital Wellbeing Predictor
+# 🧠 Student Digital Wellbeing Predictor
 
 
 
-\### Predicting Student Stress Levels and Mental Health Scores Using Machine Learning
+### Predicting Student Stress Levels and Mental Health Scores Using Machine Learning
 
 
 
-A machine learning project that analyzes students' demographic characteristics, digital usage patterns, and lifestyle habits to predict \*\*Stress Level\*\* and \*\*Mental Health Score\*\*.
+A machine learning project that analyzes students' demographic characteristics, digital usage patterns, and lifestyle habits to predict **Stress Level** and **Mental Health Score**.
 
 
 
@@ -14,49 +14,49 @@ The project combines exploratory data analysis, feature engineering, model compa
 
 
 
-\---
+---
 
 
 
-\## 📌 Table of Contents
+## 📌 Table of Contents
 
 
 
-\- \[Project Overview](#-project-overview)
+- [Project Overview](#-project-overview)
 
-\- \[Objectives](#-objectives)
+- [Objectives](#-objectives)
 
-\- \[Prediction Targets](#-prediction-targets)
+- [Prediction Targets](#-prediction-targets)
 
-\- \[Key Features](#-key-features)
+- [Key Features](#-key-features)
 
-\- \[Technology Stack](#-technology-stack)
+- [Technology Stack](#-technology-stack)
 
-\- \[Machine Learning Workflow](#-machine-learning-workflow)
+- [Machine Learning Workflow](#-machine-learning-workflow)
 
-\- \[Model Selection and Evaluation](#-model-selection-and-evaluation)
+- [Model Selection and Evaluation](#-model-selection-and-evaluation)
 
-\- \[Project Structure](#-project-structure)
+- [Project Structure](#-project-structure)
 
-\- \[Installation and Setup](#-installation-and-setup)
+- [Installation and Setup](#-installation-and-setup)
 
-\- \[Running the Application](#-running-the-application)
+- [Running the Application](#-running-the-application)
 
-\- \[Model Files](#-model-files)
+- [Model Files](#-model-files)
 
-\- \[Key Insights](#-key-insights)
+- [Key Insights](#-key-insights)
 
-\- \[Future Improvements](#-future-improvements)
+- [Future Improvements](#-future-improvements)
 
-\- \[Disclaimer](#-disclaimer)
-
-
-
-\---
+- [Disclaimer](#-disclaimer)
 
 
 
-\## 📖 Project Overview
+---
+
+
+
+## 📖 Project Overview
 
 
 
@@ -68,9 +68,9 @@ This project uses machine learning to explore these relationships and predict tw
 
 
 
-1\. \*\*Stress Level Prediction:\*\* Classifies a student's stress level into one of four categories.
+1. **Stress Level Prediction:** Classifies a student's stress level into one of four categories.
 
-2\. \*\*Mental Health Score Prediction:\*\* Estimates a numerical mental health score.
+2. **Mental Health Score Prediction:** Estimates a numerical mental health score.
 
 
 
@@ -78,35 +78,35 @@ The project includes a Jupyter Notebook for data analysis and model development,
 
 
 
-\## 🎯 Objectives
+## 🎯 Objectives
 
 
 
-\- Explore relationships between student lifestyle, digital behavior, and wellbeing.
+- Explore relationships between student lifestyle, digital behavior, and wellbeing.
 
-\- Perform exploratory data analysis (EDA) and visualize important patterns.
+- Perform exploratory data analysis (EDA) and visualize important patterns.
 
-\- Engineer additional features from digital usage and lifestyle variables.
+- Engineer additional features from digital usage and lifestyle variables.
 
-\- Compare Random Forest and XGBoost algorithms.
+- Compare Random Forest and XGBoost algorithms.
 
-\- Evaluate classification and regression models using appropriate performance metrics.
+- Evaluate classification and regression models using appropriate performance metrics.
 
-\- Apply hyperparameter tuning to improve model performance.
+- Apply hyperparameter tuning to improve model performance.
 
-\- Develop an interactive application for generating both predictions.
-
-
-
-\## 🔍 Prediction Targets
+- Develop an interactive application for generating both predictions.
 
 
 
-\### 1. Stress Level — Classification
+## 🔍 Prediction Targets
 
 
 
-\*\*Target variable:\*\* `Stress\_Level`
+### 1. Stress Level — Classification
+
+
+
+**Target variable:** `Stress_Level`
 
 
 
@@ -114,13 +114,13 @@ The classification model predicts one of the following categories:
 
 
 
-\- Low
+- Low
 
-\- Medium
+- Medium
 
-\- High
+- High
 
-\- Very High
+- Very High
 
 
 
@@ -128,15 +128,15 @@ The project evaluates classification performance using accuracy, weighted F1 sco
 
 
 
-\*\*Selected model:\*\* Baseline Random Forest Classifier.
+**Selected model:** Baseline Random Forest Classifier.
 
 
 
-\### 2. Mental Health Score — Regression
+### 2. Mental Health Score — Regression
 
 
 
-\*\*Target variable:\*\* `Mental\_Health\_Score`
+**Target variable:** `Mental_Health_Score`
 
 
 
@@ -148,17 +148,17 @@ Model performance is evaluated using:
 
 
 
-\- Mean Absolute Error (MAE)
+- Mean Absolute Error (MAE)
 
-\- Root Mean Squared Error (RMSE)
+- Root Mean Squared Error (RMSE)
 
-\- R² score
+- R² score
 
-\- Cross-validation
+- Cross-validation
 
 
 
-\*\*Selected model:\*\* Tuned Random Forest Regressor.
+**Selected model:** Tuned Random Forest Regressor.
 
 
 
@@ -166,27 +166,27 @@ The two targets are modeled separately because stress level is categorical, wher
 
 
 
-\## ✨ Key Features
+## ✨ Key Features
 
 
 
-\- \*\*Dual prediction:\*\* Predicts stress level and mental health score from the same set of inputs.
+- **Dual prediction:** Predicts stress level and mental health score from the same set of inputs.
 
-\- \*\*Exploratory data analysis:\*\* Examines numerical and categorical variables, distributions, correlations, and relationships with both targets.
+- **Exploratory data analysis:** Examines numerical and categorical variables, distributions, correlations, and relationships with both targets.
 
-\- \*\*Feature engineering:\*\* Creates additional features related to screen usage and phone unlock frequency.
+- **Feature engineering:** Creates additional features related to screen usage and phone unlock frequency.
 
-\- \*\*Model comparison:\*\* Evaluates Random Forest and XGBoost approaches.
+- **Model comparison:** Evaluates Random Forest and XGBoost approaches.
 
-\- \*\*Hyperparameter tuning:\*\* Uses RandomizedSearchCV to explore Random Forest configurations.
+- **Hyperparameter tuning:** Uses RandomizedSearchCV to explore Random Forest configurations.
 
-\- \*\*Interactive interface:\*\* Provides an intuitive Streamlit application for entering user information.
+- **Interactive interface:** Provides an intuitive Streamlit application for entering user information.
 
-\- \*\*Visual predictions:\*\* Displays the predicted stress level and mental health score using Plotly gauges.
+- **Visual predictions:** Displays the predicted stress level and mental health score using Plotly gauges.
 
 
 
-\## 🛠️ Technology Stack
+## 🛠️ Technology Stack
 
 
 
@@ -220,7 +220,7 @@ The two targets are modeled separately because stress level is categorical, wher
 
 
 
-\## ⚙️ Machine Learning Workflow
+## ⚙️ Machine Learning Workflow
 
 
 
@@ -228,29 +228,29 @@ The project follows these steps:
 
 
 
-1\. \*\*Data acquisition:\*\* Downloads the dataset using KaggleHub.
+1. **Data acquisition:** Downloads the dataset using KaggleHub.
 
-2\. \*\*Data understanding:\*\* Examines the dataset structure, variables, missing values, and duplicate records.
+2. **Data understanding:** Examines the dataset structure, variables, missing values, and duplicate records.
 
-3\. \*\*Exploratory data analysis:\*\* Studies feature distributions and relationships with both prediction targets.
+3. **Exploratory data analysis:** Studies feature distributions and relationships with both prediction targets.
 
-4\. \*\*Feature engineering:\*\* Derives additional digital usage features.
+4. **Feature engineering:** Derives additional digital usage features.
 
-5\. \*\*Preprocessing:\*\* Uses preprocessing pipelines to handle numerical and categorical features.
+5. **Preprocessing:** Uses preprocessing pipelines to handle numerical and categorical features.
 
-6\. \*\*Baseline modeling:\*\* Trains Random Forest models for classification and regression.
+6. **Baseline modeling:** Trains Random Forest models for classification and regression.
 
-7\. \*\*Model comparison:\*\* Evaluates XGBoost alternatives against the baseline models.
+7. **Model comparison:** Evaluates XGBoost alternatives against the baseline models.
 
-8\. \*\*Hyperparameter tuning:\*\* Uses randomized search with cross-validation to tune Random Forest models.
+8. **Hyperparameter tuning:** Uses randomized search with cross-validation to tune Random Forest models.
 
-9\. \*\*Model evaluation:\*\* Compares performance using classification and regression metrics and examines potential overfitting.
+9. **Model evaluation:** Compares performance using classification and regression metrics and examines potential overfitting.
 
-10\. \*\*Model deployment:\*\* Saves the selected models and loads them into the Streamlit application.
+10. **Model deployment:** Saves the selected models and loads them into the Streamlit application.
 
 
 
-\### Engineered Features
+### Engineered Features
 
 
 
@@ -258,9 +258,9 @@ The project creates additional features, including:
 
 
 
-\- `Screen\_Nonscreen\_Ratio`
+- `Screen_Nonscreen_Ratio`
 
-\- `Unlocks\_Per\_Usage\_Hour`
+- `Unlocks_Per_Usage_Hour`
 
 
 
@@ -268,7 +268,7 @@ These features are intended to represent aspects of digital usage and behavioral
 
 
 
-\## 📊 Model Selection and Evaluation
+## 📊 Model Selection and Evaluation
 
 
 
@@ -286,7 +286,7 @@ The notebook evaluates two algorithms for both prediction targets.
 
 
 
-\### Stress Level Classification
+### Stress Level Classification
 
 
 
@@ -294,13 +294,13 @@ The notebook's final conclusion reports that the baseline Random Forest Classifi
 
 
 
-\- \*\*Test accuracy:\*\* 89.9%
+- **Test accuracy:** 89.9%
 
-\- \*\*Weighted F1 score:\*\* 0.899
+- **Weighted F1 score:** 0.899
 
-\- \*\*Cross-validation accuracy:\*\* 0.871
+- **Cross-validation accuracy:** 0.871
 
-\- \*\*Cross-validation weighted F1 score:\*\* 0.870
+- **Cross-validation weighted F1 score:** 0.870
 
 
 
@@ -308,7 +308,7 @@ The baseline Random Forest was selected because it outperformed the alternatives
 
 
 
-\### Mental Health Score Regression
+### Mental Health Score Regression
 
 
 
@@ -316,13 +316,13 @@ The notebook's final conclusion reports the following results for the tuned Rand
 
 
 
-\- \*\*R² score:\*\* 0.913
+- **R² score:** 0.913
 
-\- \*\*Root Mean Squared Error (RMSE):\*\* 0.39
+- **Root Mean Squared Error (RMSE):** 0.39
 
-\- \*\*Mean Absolute Error (MAE):\*\* 0.289
+- **Mean Absolute Error (MAE):** 0.289
 
-\- \*\*Cross-validation R² score:\*\* 0.891
+- **Cross-validation R² score:** 0.891
 
 
 
@@ -330,11 +330,11 @@ These results indicate strong predictive performance on the evaluation data used
 
 
 
-\*Note: These are the results reported in the notebook. They describe performance on the evaluated dataset and do not guarantee equivalent performance on new populations or real-world use cases.\*
+*Note: These are the results reported in the notebook. They describe performance on the evaluated dataset and do not guarantee equivalent performance on new populations or real-world use cases.*
 
 
 
-\## 📁 Project Structure
+## 📁 Project Structure
 
 
 
@@ -356,7 +356,7 @@ student-digital-wellbeing-predictor/
 
 │
 
-├── student\_digital\_wellbeing\_predictor.ipynb
+├── student_digital_wellbeing_predictor.ipynb
 
 │   └── Exploratory data analysis, feature engineering,
 
@@ -364,7 +364,7 @@ student-digital-wellbeing-predictor/
 
 │
 
-├── mhs\_app.py
+├── mhs_app.py
 
 │   └── Streamlit application for both predictions
 
@@ -394,9 +394,9 @@ The trained model files are intentionally excluded from GitHub:
 
 
 
-\- `stress\_level\_model.pkl`
+- `stress_level_model.pkl`
 
-\- `mental\_health\_score\_model.pkl`
+- `mental_health_score_model.pkl`
 
 
 
@@ -404,11 +404,11 @@ These files must be generated locally by running the appropriate model-training 
 
 
 
-\## 🚀 Installation and Setup
+## 🚀 Installation and Setup
 
 
 
-\### Prerequisites
+### Prerequisites
 
 
 
@@ -416,17 +416,17 @@ Install the following before starting:
 
 
 
-\- Python
+- Python
 
-\- Git
+- Git
 
-\- Jupyter Notebook or JupyterLab
+- Jupyter Notebook or JupyterLab
 
-\- A GitHub account if you want to clone the repository
+- A GitHub account if you want to clone the repository
 
 
 
-\### Step 1: Clone the Repository
+### Step 1: Clone the Repository
 
 
 
@@ -454,7 +454,7 @@ cd student-digital-wellbeing-predictor
 
 
 
-\### Step 2: Create a Virtual Environment
+### Step 2: Create a Virtual Environment
 
 
 
@@ -472,7 +472,7 @@ Activate the environment on Windows PowerShell:
 
 ```powershell
 
-.\\.venv\\Scripts\\Activate.ps1
+..venvScriptsActivate.ps1
 
 ```
 
@@ -484,13 +484,13 @@ If you use Command Prompt instead:
 
 ```cmd
 
-.venv\\Scripts\\activate.bat
+.venvScriptsactivate.bat
 
 ```
 
 
 
-\### Step 3: Install Dependencies
+### Step 3: Install Dependencies
 
 
 
@@ -510,7 +510,7 @@ Ensure the requirements file includes the packages imported by the application a
 
 
 
-\### Step 4: Download the Dataset and Generate the Models
+### Step 4: Download the Dataset and Generate the Models
 
 
 
@@ -524,7 +524,7 @@ Open the notebook:
 
 ```bash
 
-jupyter notebook student\_digital\_wellbeing\_predictor.ipynb
+jupyter notebook student_digital_wellbeing_predictor.ipynb
 
 ```
 
@@ -540,15 +540,15 @@ The notebook saves the selected models as:
 
 ```text
 
-stress\_level\_model.pkl
+stress_level_model.pkl
 
-mental\_health\_score\_model.pkl
+mental_health_score_model.pkl
 
 ```
 
 
 
-\*\*Important:\*\* Model training and hyperparameter tuning may take some time. The notebook requires access to the dataset source, and the necessary Python dependencies must be installed.
+**Important:** Model training and hyperparameter tuning may take some time. The notebook requires access to the dataset source, and the necessary Python dependencies must be installed.
 
 
 
@@ -556,7 +556,7 @@ Verify that both files exist in the project root before proceeding.
 
 
 
-\## ▶️ Running the Application
+## ▶️ Running the Application
 
 
 
@@ -566,7 +566,7 @@ After generating both model files, run the following command from the project ro
 
 ```bash
 
-streamlit run mhs\_app.py
+streamlit run mhs_app.py
 
 ```
 
@@ -576,7 +576,7 @@ Streamlit will start a local web server and display a URL in the terminal. Open 
 
 
 
-\### Application Inputs
+### Application Inputs
 
 
 
@@ -584,51 +584,51 @@ The application collects information in three groups:
 
 
 
-\*\*Personal Information\*\*
+**Personal Information**
 
-\- Age
+- Age
 
-\- Gender
+- Gender
 
-\- Country
+- Country
 
-\- Academic level
-
-
-
-\*\*Digital Usage\*\*
-
-\- Most-used platform
-
-\- Purpose of use
-
-\- Average daily usage hours
-
-\- Daily phone unlocks
+- Academic level
 
 
 
-\*\*Lifestyle\*\*
+**Digital Usage**
 
-\- Study hours per day
+- Most-used platform
 
-\- Physical activity hours per day
+- Purpose of use
 
-\- Sleep hours per night
+- Average daily usage hours
 
-
-
-\### Prediction Results
+- Daily phone unlocks
 
 
 
-After entering the information and clicking \*\*Predict\*\*, the application displays:
+**Lifestyle**
+
+- Study hours per day
+
+- Physical activity hours per day
+
+- Sleep hours per night
 
 
 
-\- Predicted stress level using a categorical gauge.
+### Prediction Results
 
-\- Predicted mental health score using a numerical gauge.
+
+
+After entering the information and clicking **Predict**, the application displays:
+
+
+
+- Predicted stress level using a categorical gauge.
+
+- Predicted mental health score using a numerical gauge.
 
 
 
@@ -636,7 +636,7 @@ Both predictions are generated from the trained models using the same input info
 
 
 
-\## 📦 Model Files
+## 📦 Model Files
 
 
 
@@ -650,9 +650,9 @@ The application currently loads the models from the project root:
 
 ```python
 
-stress\_model = joblib.load("stress\_level\_model.pkl")
+stress_model = joblib.load("stress_level_model.pkl")
 
-mhs\_model = joblib.load("mental\_health\_score\_model.pkl")
+mhs_model = joblib.load("mental_health_score_model.pkl")
 
 ```
 
@@ -662,7 +662,7 @@ Consequently, cloning the repository alone is not sufficient to run the applicat
 
 
 
-\## 💡 Key Insights
+## 💡 Key Insights
 
 
 
@@ -670,13 +670,13 @@ The notebook's exploratory analysis identifies several relationships worth inves
 
 
 
-\- Average daily usage hours and daily phone unlock frequency show negative associations with mental health scores.
+- Average daily usage hours and daily phone unlock frequency show negative associations with mental health scores.
 
-\- Sleep duration, study hours, and physical activity show positive associations with mental health scores in the analyzed dataset.
+- Sleep duration, study hours, and physical activity show positive associations with mental health scores in the analyzed dataset.
 
-\- Digital usage and lifestyle features show relationships with stress-level categories.
+- Digital usage and lifestyle features show relationships with stress-level categories.
 
-\- Random Forest and XGBoost provide different levels of predictive performance depending on the target variable.
+- Random Forest and XGBoost provide different levels of predictive performance depending on the target variable.
 
 
 
@@ -684,7 +684,7 @@ These findings describe patterns in the analyzed data. They should not be interp
 
 
 
-\## 🔮 Future Improvements
+## 🔮 Future Improvements
 
 
 
@@ -692,25 +692,25 @@ Potential extensions include:
 
 
 
-\- Adding a dedicated model evaluation dashboard.
+- Adding a dedicated model evaluation dashboard.
 
-\- Improving model interpretability using SHAP or other feature-importance techniques.
+- Improving model interpretability using SHAP or other feature-importance techniques.
 
-\- Performing additional robustness and subgroup evaluations.
+- Performing additional robustness and subgroup evaluations.
 
-\- Improving input validation and application error handling.
+- Improving input validation and application error handling.
 
-\- Automating model training and evaluation.
+- Automating model training and evaluation.
 
-\- Adding reproducible dataset and model versioning.
+- Adding reproducible dataset and model versioning.
 
-\- Deploying the Streamlit application to a hosting platform.
+- Deploying the Streamlit application to a hosting platform.
 
-\- Expanding the documentation with application screenshots and a detailed evaluation report.
+- Expanding the documentation with application screenshots and a detailed evaluation report.
 
 
 
-\## ⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 
 
@@ -726,15 +726,15 @@ The results should be interpreted cautiously, as model performance may vary acro
 
 
 
-\---
+---
 
 
 
-\## 👤 Author
+## 👤 Author
 
 
 
-\*\*Your Name\*\*
+**Your Name**
 
 
 
